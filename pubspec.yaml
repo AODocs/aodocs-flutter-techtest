@@ -1,0 +1,25 @@
+name: aodocs_flutter_tech_test
+description: A technical test for Flutter
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  googleapis: any
+  googleapis_auth: any
+  google_sign_in: ^4.5.4
+  extension_google_sign_in_as_googleapis_auth: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
