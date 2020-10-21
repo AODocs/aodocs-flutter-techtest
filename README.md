@@ -41,7 +41,6 @@ The steps to achieve in this test are:
 6. (Optional) The list should be an infinite scroll, loading more files when scrolling down
 7. (Bonus) Add an action to download the selected files as a ZIP archive
 
-<a name="myfootnote1">1</a>: 
 ## Useful link
 
 * Link to Drive API: https://developers.google.com/drive/api/v3/reference/
