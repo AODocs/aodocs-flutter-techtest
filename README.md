@@ -27,21 +27,20 @@ You can also run the project from your IDE:
 ## Test Objectives
 
 The following goals should be done in a strict time of one hour.
-The implementation should be done in the lib/main.dart file (it is OK to split the main file to inprove readability).
+The implementation should be done in the `lib/main.dart` file (it is OK to split the main file to improve readability).
 
 The steps to achieve in this test are:
 1. List the first 25 [Files](https://developers.google.com/drive/api/v3/reference/files) from Drive for the current user and display the name of these files as a list
 2. Add additional information for each item:
    - The name of the File should be the main information of the list item
-   - The modification date of the file as a subtitle, displayed as a relative time like '3 hours ago' with a tooltip showing the absolute date 
+   - The modification date of the File as a subtitle, displayed as a relative time like '3 hours ago' with a tooltip showing the absolute date 
    - The thumbnail of the File at the beginning of the list item (you will need to use the `fields` parameter in the Drive API request to retrieve the Modification date and the Thumbnail url)
-2. Add a click action on the File thumbnails to display their preview them in a new tab (the preview URL is available in the API response)
-3. Add an action to star/unstar a File in Drive (the initial status should be correctly displayed)
-4. Add a way select one or more Files in the list, and star/unstar them in batch
-5. (Optional) The list should be an infinite scroll, loading more files when scrolling down
-6. (Bonus) Add an action to download the selected files as a ZIP archive
+3. Add a click action on the File thumbnails to display their preview in a new tab (the preview URL is available in the API response)
+4. Add an action to star/unstar a File in Drive (the initial status should be correctly displayed)
+5. Add a way to select one or more Files in the list, and star/unstar them in batch
+6. (Optional) The list should be an infinite scroll, loading more files when scrolling down
+7. (Bonus) Add an action to download the selected files as a ZIP archive
 
-<a name="myfootnote1">1</a>: 
 ## Useful link
 
 * Link to Drive API: https://developers.google.com/drive/api/v3/reference/
